@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8a1239bf-e107-4b53-a912-270abaa1b1e7" /># 🎨 Color Visualizer
+# 🎨 Color Visualizer
 
 A real-time color picker tool that instantly updates UI components to preview how colors look in different contexts. Built with vanilla JavaScript.
 
