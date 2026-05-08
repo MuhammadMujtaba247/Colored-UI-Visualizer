@@ -1,7 +1,6 @@
 let colorInput = document.getElementById('color-input')
 let textInput = document.getElementById('text-input')
-console.log(colorInput, textInput)
-let pattern = /^#[0-9A-Fa-f]{6}/
+let pattern = /^#[0-9A-Fa-f]{6}$/
 let button1 = document.getElementById('preview-button1')
 let button2 = document.getElementById('preview-button2')
 let para = document.getElementById('preview-para')
@@ -22,7 +21,6 @@ function updateColorColor() {
     textInput.value = colorInput.value
     updatePreviews()
 }
-console.log(svg)
 function updatePreviews() {
     button1.style.color = currentColor
     button1.style.borderColor = currentColor
